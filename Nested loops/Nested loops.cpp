@@ -29,7 +29,7 @@ int main()
 			//if (j % 2 == i % 2)cout << "+ ";
 			//if ((i+j) % 2==0)cout << "+ "; else cout << "- ";
 			//(i+j) % 2==0 ? cout << "+ " : cout << "- "; //тернарный оператор
-			cout << char((i + j) % 2 == 0 ? '+' : '-');
+			cout << char((i + j) % 2 == 0 ? '  +' : '  -');
 		}
 		cout << endl;
 	}
